@@ -1,0 +1,36 @@
+.NewTodoForm {
+    border: 1px solid rgb(189, 189, 189);
+    position: relative;  
+    margin: auto;
+    width: 400px;
+    margin-top: 50px;
+    padding: 50px;
+  }
+  
+  label {
+      display: block;
+  }
+  
+  input {
+      margin-top: 5px;
+      margin-bottom: 15px;
+      width: 100%;
+      padding: 10px 0px 10px 10px;
+      border-radius: 5px;
+      border: 1px solid rgb(189, 189, 189);
+  }
+  
+  .NewTodoForm-button {
+      padding: 5px 15px;
+      font-size: 18px;
+      background: lightseagreen;
+      color: white;
+      border: 1px solid rgb(18, 143, 137);
+      border-radius: 20px;
+  }
+  
+  .NewTodoForm-button:hover {
+      cursor: pointer;
+      border: 1px solid rgb(18, 143, 137);
+      border-radius: 20px;
+  }
